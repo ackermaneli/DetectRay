@@ -19,20 +19,20 @@ This project is developed and tested using PyTorch, which requires CUDA for GPU 
 ### Installing PyTorch with CUDA Support
 
 The project uses PyTorch with CUDA 11.8 support. You can install PyTorch along with torchvision and torchaudio using the following command:
-'''bash
+```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118'
-'''
+```
 This command installs the versions of PyTorch, torchvision, and torchaudio that are compatible with CUDA 11.8. Ensure that your system has CUDA 11.8 compatible hardware and drivers.
 
 ## Checking CUDA Availability
 
 After installing PyTorch, you can verify that CUDA is available to PyTorch with the following Python commands:
 
-'''python
+```python
 import torch
 print(torch.cuda.is_available())  # Should return True if CUDA is available
 print(torch.version.cuda)  # Prints the CUDA version used by PyTorch
-'''
+```
 
 If torch.cuda.is_available() returns True, your PyTorch installation can utilize GPU acceleration.
 
@@ -40,9 +40,9 @@ If torch.cuda.is_available() returns True, your PyTorch installation can utilize
 
 Install the remaining project dependencies from the requirements.txt file:
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 The requirements.txt file contains all the necessary Python packages to run the project. Adjustments may be needed depending on your specific system configuration and the versions of the packages at the time of your project setup.
 Note:
