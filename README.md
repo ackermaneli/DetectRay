@@ -50,12 +50,12 @@ Note:
 - **CUDA Compatibility**: The installation command provided assumes compatibility with CUDA 11.8. If your GPU or system requires a different version of CUDA, please visit the visit the [PyTorch official website](https://pytorch.org/) for the appropriate installation command tailored to your CUDA version.
 - **Google Colab Users**: If you are running this project in Google Colab, CUDA and PyTorch are pre-installed, and you typically do not need to manually install CUDA. You can directly proceed with installing any additional Python packages specified in requirements.txt.
 
-# Running the Notebook
+## Running the Notebook
 
 Open the Jupyter notebook in your preferred environment (e.g., JupyterLab, classic Jupyter Notebook) and run the cells sequentially to reproduce the project's findings. Note that some sections are specifically designed for Google Colab and are marked accordingly. 
 For other environments, you will need to comment out the parts of the code that are for Google Colab and uncomment those marked for Jupyter Notebook.
 
-# Notebook Structure
+## Notebook Structure
 
 - **Introduction and Objectives**
 - **Exploratory Data Analysis (EDA)**
@@ -63,10 +63,10 @@ For other environments, you will need to comment out the parts of the code that 
 - **Model Evaluation**
 - **Conclusion and Future Work**
 
-# Contributing
+## Contributing
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your proposed changes.
 
-# Contact
+## Contact
 
 For any questions or suggestions regarding this project, please feel free to contact me at [eli.datasci.direct@gmail.com].
