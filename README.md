@@ -12,6 +12,14 @@ The main framework used is PyTorch, employing an Object-Oriented Programming (OO
 - **Model Development**: Implements machine learning models for the classification and detection of pneumonia.
 - **Evaluation**: Utilizes metrics such as AUC (classification), mAP (detection - special variation), and more to evaluate model performance.
 
+## Getting Started
+
+To run this project locally, clone the repository to your machine using the following command:
+
+```bash
+git clone https://github.com/eliordadon/PneumoniaDetectionXray
+```
+
 ## Environment Setup
 
 This project is developed and tested using PyTorch, which requires CUDA for GPU acceleration. Follow the steps below to set up your environment:
