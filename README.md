@@ -77,4 +77,4 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## Contact
 
-For any questions or suggestions regarding this project, please feel free to contact me at [eli.datasci.direct@gmail.com].
+For any questions or suggestions regarding this project, please feel free to contact me at eli.datasci.direct@gmail.com.
