@@ -33,7 +33,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 This command installs the versions of PyTorch, torchvision, and torchaudio that are compatible with CUDA 11.8. Ensure that your system has CUDA 11.8 compatible hardware and drivers.
 
-## Checking CUDA Availability
+### Checking CUDA Availability
 
 After installing PyTorch, you can verify that CUDA is available to PyTorch with the following Python commands:
 
@@ -45,7 +45,7 @@ print(torch.version.cuda)  # Prints the CUDA version used by PyTorch
 
 If torch.cuda.is_available() returns True, your PyTorch installation can utilize GPU acceleration.
 
-## Additional Dependencies
+### Additional Dependencies
 
 Install the remaining project dependencies from the requirements.txt file:
 
@@ -95,7 +95,7 @@ In this project, TensorBoard visualizations are initially presented as static im
 - Comment out the lines of code generating static images.
 - Uncomment the lines containing the `--logdir` argument, which immediately precede the static image code. These lines activate the interactive TensorBoard session.
 
-## Notebook Structure
+### Notebook Structure
 
 - **Introduction and Objectives**
 - **Exploratory Data Analysis (EDA)**
