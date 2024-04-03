@@ -1,0 +1,13 @@
+# Used python 3.10
+matplotlib
+seaborn
+numpy
+pydicom
+pandas
+Pillow
+tqdm
+opencv-python-headless  # Use this for environments without GUI, replaces cv2
+scikit-learn
+albumentations
+tensorboard
+ipython  # Used for IPython.display in Jupyter notebooks and similar environments.
