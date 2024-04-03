@@ -6,6 +6,9 @@ It utilizes a classification-detection pipeline, with the classification phase s
 Due to computational constraints, the architectures chosen for this project are ResNet34 & EfficientNet B3 for classification and Faster RCNN & RetinaNet for detection.
 The main framework used is PyTorch, employing an Object-Oriented Programming (OOP) approach.
 
+For easier exploration, here is a link to the rendered version of the notebook:
+[Rendered Notebook on nbviewer](https://nbviewer.org/github/eliordadon/PneumoniaDetectionXray/blob/main/pneumoniaXrayLatest.ipynb)
+
 ## Features
 
 - **Data Exploration**: Conducts detailed exploratory data analysis (EDA) to understand the dataset's characteristics and challenges.
