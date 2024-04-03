@@ -29,6 +29,7 @@ This project is developed and tested using PyTorch, which requires CUDA for GPU 
 The project uses PyTorch with CUDA 11.8 support. You can install PyTorch along with torchvision and torchaudio using the following command:
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
 This command installs the versions of PyTorch, torchvision, and torchaudio that are compatible with CUDA 11.8. Ensure that your system has CUDA 11.8 compatible hardware and drivers.
 
@@ -40,7 +41,7 @@ After installing PyTorch, you can verify that CUDA is available to PyTorch with 
 import torch
 print(torch.cuda.is_available())  # Should return True if CUDA is available
 print(torch.version.cuda)  # Prints the CUDA version used by PyTorch
-
+```
 
 If torch.cuda.is_available() returns True, your PyTorch installation can utilize GPU acceleration.
 
@@ -50,7 +51,7 @@ Install the remaining project dependencies from the requirements.txt file:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 The requirements.txt file contains all the necessary Python packages to run the project. Adjustments may be needed depending on your specific system configuration and the versions of the packages at the time of your project setup.
 
@@ -71,7 +72,7 @@ data/
     - train_dicoms/
     - train_labels.csv
     - detailed_class_info.csv
-
+```
 
 **Note:**
 - **The test images are not being used in this project:** The reason is that Kaggle does not provide labels for the test images. In this project, we evaluate the test set as well, so we use the train images for the train/validation/test splits.
@@ -81,16 +82,6 @@ data/
 
 Open the Jupyter notebook in your preferred environment (e.g., JupyterLab, classic Jupyter Notebook) and run the cells sequentially to reproduce the project's findings. Note that some sections are specifically designed for Google Colab and are marked accordingly. 
 For other environments, you will need to comment out the parts of the code that are for Google Colab and uncomment those marked for Jupyter Notebook.
-
-## Notebook Structure
-
-- **Introduction and Objectives**
-- **Exploratory Data Analysis (EDA)**
-- **Model Development and Training - Classification**
-- **Model Evaluation - Classification**
-- **Model Development and Training - Detection**
-- **Model Evaluation - Detection**
-- **Conclusion and Future Work**
 
 When running the notebook, the following directories will be automatically created if they do not already exist:
 
@@ -103,6 +94,16 @@ In this project, TensorBoard visualizations are initially presented as static im
 - Locate the sections displaying TensorBoard static images in the notebook.
 - Comment out the lines of code generating static images.
 - Uncomment the lines containing the `--logdir` argument, which immediately precede the static image code. These lines activate the interactive TensorBoard session.
+
+## Notebook Structure
+
+- **Introduction and Objectives**
+- **Exploratory Data Analysis (EDA)**
+- **Model Development and Training - Classification**
+- **Model Evaluation - Classification**
+- **Model Development and Training - Detection**
+- **Model Evaluation - Detection**
+- **Conclusion and Future Work**
 
 ## Contributing
 
