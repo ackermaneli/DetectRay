@@ -1,4 +1,5 @@
-# Pneumonia Detection with Chest DICOM X-ray Images
+# DetectRay
+## Pneumonia Detection with Chest DICOM X-ray Images
 ## Overview
 
 This project aims to develop a machine learning model capable of identifying and localizing pneumonia in chest DICOM X-ray images.
